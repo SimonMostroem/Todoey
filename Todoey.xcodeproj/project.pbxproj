@@ -7,8 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3422B5FF2529ADCC00347893 /* Item_.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3422B5FE2529ADCC00347893 /* Item_.swift */; };
+		3422B5FF2529ADCC00347893 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3422B5FE2529ADCC00347893 /* Item.swift */; };
 		342A0E9925408F590073797F /* DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 342A0E9725408F590073797F /* DataModel.xcdatamodeld */; };
+		3447F26D25795AF200C8C136 /* SwipeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3447F26C25795AF200C8C136 /* SwipeTableViewController.swift */; };
+		344AC784256DA76D000B74D8 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 344AC783256DA76D000B74D8 /* Category.swift */; };
 		3499C6962566E05D00ACBBFD /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3499C6952566E05D00ACBBFD /* CategoryViewController.swift */; };
 		43CB58A8B38D4D40D35BD453 /* Pods_Todoey.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B88A88890095FC4533E7578 /* Pods_Todoey.framework */; };
 		EB2BE4FA239524DB00FB933B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2BE4F9239524DB00FB933B /* AppDelegate.swift */; };
@@ -20,9 +22,11 @@
 
 /* Begin PBXFileReference section */
 		1B88A88890095FC4533E7578 /* Pods_Todoey.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Todoey.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3422B5FE2529ADCC00347893 /* Item_.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item_.swift; sourceTree = "<group>"; };
+		3422B5FE2529ADCC00347893 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		3422B6172529C58E00347893 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		342A0E9825408F590073797F /* DataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataModel.xcdatamodel; sourceTree = "<group>"; };
+		3447F26C25795AF200C8C136 /* SwipeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeTableViewController.swift; sourceTree = "<group>"; };
+		344AC783256DA76D000B74D8 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
 		3499C6952566E05D00ACBBFD /* CategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
 		78AA491907C61878B3AA34E3 /* Pods-Todoey.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Todoey.release.xcconfig"; path = "Target Support Files/Pods-Todoey/Pods-Todoey.release.xcconfig"; sourceTree = "<group>"; };
 		EB2BE4F6239524DB00FB933B /* Todoey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Todoey.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -58,7 +62,8 @@
 			isa = PBXGroup;
 			children = (
 				342A0E9725408F590073797F /* DataModel.xcdatamodeld */,
-				3422B5FE2529ADCC00347893 /* Item_.swift */,
+				344AC783256DA76D000B74D8 /* Category.swift */,
+				3422B5FE2529ADCC00347893 /* Item.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -68,6 +73,7 @@
 			children = (
 				3499C6952566E05D00ACBBFD /* CategoryViewController.swift */,
 				EB2BE4FD239524DB00FB933B /* TodoListViewController.swift */,
+				3447F26C25795AF200C8C136 /* SwipeTableViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -247,8 +253,10 @@
 				3499C6962566E05D00ACBBFD /* CategoryViewController.swift in Sources */,
 				EB2BE4FE239524DB00FB933B /* TodoListViewController.swift in Sources */,
 				342A0E9925408F590073797F /* DataModel.xcdatamodeld in Sources */,
-				3422B5FF2529ADCC00347893 /* Item_.swift in Sources */,
+				3447F26D25795AF200C8C136 /* SwipeTableViewController.swift in Sources */,
+				3422B5FF2529ADCC00347893 /* Item.swift in Sources */,
 				EB2BE4FA239524DB00FB933B /* AppDelegate.swift in Sources */,
+				344AC784256DA76D000B74D8 /* Category.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
